@@ -48,22 +48,22 @@ const AdminLN = () => {
 
             <div className="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">
                 {admin?.error &&
-                    <div className="w-full hover:bg-indigo-700 bg-pink-700 text-white font-bold  mx-3 rounded">{admin.error}</div>
+                    <div className="w-full hover:bg-indigo-100 text-black font-bold  mx-3 rounded">{admin.error}</div>
                 }
                 <div className='text-center'>
                     <div className="font-semibold text-lg mb-5">Admin Login</div>
                 </div>
                 <div>
                     <div>
-                        <label className="block mb-2 text-indigo-500" htmlFor="email">Email</label>
-                        <input required onChange={formHandler} className="w-full p-2 mb-6 text-indigo-700 border-b-2 border-indigo-500 outline-none focus:bg-gray-300" type="text" name="email" />
+                        <label className="block mb-2 text-black" htmlFor="email">Email</label>
+                        <input required onChange={formHandler} className="w-full p-2 mb-6 text-black border-b-2 border-black outline-none focus:bg-gray-300" type="text" name="email" />
                     </div>
                     <div>
-                        <label className="block mb-2 text-indigo-500" htmlFor="password">Password</label>
-                        <input required onChange={formHandler} className="w-full p-2 mb-6 text-indigo-700 border-b-2 border-indigo-500 outline-none focus:bg-gray-300" type="password" name="password" />
+                        <label className="block mb-2 text-black" htmlFor="password">Password</label>
+                        <input required onChange={formHandler} className="w-full p-2 mb-6 text-black border-b-2 border-black outline-none focus:bg-gray-300" type="password" name="password" />
                     </div>
                     <div>
-                        <input onClick={submitHandler} className="w-full bg-indigo-700 hover:bg-pink-700 text-white font-bold py-2 px-4 mb-6 rounded" type="submit" />
+                        <input onClick={submitHandler} className="w-full bg-indigo-700 hover:bg-black text-white font-bold py-2 px-4 mb-6 rounded" type="submit" />
                     </div>
                 </div>
 

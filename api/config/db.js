@@ -6,4 +6,4 @@ export const connect = () => {
     } catch (err) {
         console.log("Database connection error", err.message)
     }
-} 
+}      
