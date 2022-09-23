@@ -33,13 +33,13 @@ export const SideNav = () => {
           >
             Home
           </Link>
-          <Link
+          {/* <Link
             to="/currentTasks"
             className="block py-4 bg-blue-700 my-2 text-lg px-4 rounded transition duration-200 hover:bg-blue-600 hover:text-white"
           >
             Current Tasks
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="/previousTasks"
             className="block py-4 bg-blue-700 my-2 text-lg px-4 rounded transition duration-200 hover:bg-blue-600 hover:text-white"
           >
@@ -50,9 +50,9 @@ export const SideNav = () => {
             className="block py-4 bg-blue-700 my-2 text-lg px-4 rounded transition duration-200 hover:bg-blue-600 hover:text-white"
           >
             Add a Timesheet
-          </Link>
+          </Link> */}
 
-          <Link
+          {/* <Link
             to="/waitingFAccept"
             className="block py-4 bg-blue-700 my-2 text-lg px-4 rounded transition duration-200 hover:bg-blue-600 hover:text-white"
           >
@@ -69,7 +69,7 @@ export const SideNav = () => {
             className="block py-4 bg-blue-700 my-2 text-lg px-4 rounded transition duration-200 hover:bg-blue-600 hover:text-white"
           >
             Rejected Tasks
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </>
