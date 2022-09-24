@@ -5,6 +5,7 @@ import Task from "../../models/Task.js";
 export const addTask = async (req, res, next) => {
     try {
         const body = req.body.body
+        console.log(req.body.body);
         body.user_id = req.user.id
         const task = new Task(body)
         await task.save()

@@ -5,7 +5,7 @@ export const SideNav = () => {
   return (
     <>
       {/* <!-- sidebar --> */}
-      <div className="sidebar bg-blue-800 text-blue-400 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
+      <div className="sidebar bg-sky-500 text-blue-400 w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
         {/* <!-- logo --> */}
         <a href="#" className="text-white flex items-center space-x-2 px-4">
           <svg
